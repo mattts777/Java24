@@ -1,2 +1,2 @@
 # Java24
-Initial commit
+Test project
