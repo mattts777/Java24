@@ -8,6 +8,6 @@ class Variable {
         byte escapeKey = 27; //-128 to 127.
         short roomNumber = 777;//-32768 to 32767
         long USNationalDebt;//-9.22 quintillion to 9.22 quintillion
-        boolean gameOver = false;
+        boolean gameOver = false;//True or False
     }
 }
