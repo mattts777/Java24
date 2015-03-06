@@ -6,7 +6,7 @@ class Methods {
     //NOTE: This is case sensitive
     String favorite = "Lotus Esprit";
     String guess = "Corvette Z06";
-    
+        
     System.out.println("Is Matt\'s favorite car a " + guess + "?");
     System.out.println("Answer: " + favorite.equals(guess));
     
@@ -17,6 +17,7 @@ class Methods {
     //Changing a string's case
     String charclass = "Human";
     String changecharclass = charclass.toUpperCase();
+    guess = guess.toUpperCase();
     
     //Searching for a string inside a string. -1 is returned if not found.
     //NOTE: This is case sensitive
