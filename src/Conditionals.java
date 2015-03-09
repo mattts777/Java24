@@ -40,5 +40,40 @@ class Conditionals {
         } else {
             score = 70;
         }
+        
+        //switch statement
+        switch (grade) {
+            case "A":
+                System.out.println("You got an A.");
+                break;
+            case "B":
+                System.out.println("You got a B.");
+                break;
+            case "C":
+                System.out.println("You got a C.");
+                break;
+            case "D":
+                System.out.println("You got a D.");
+                break;
+            case "F":
+                System.out.println("You failed.");
+                break;
+            default:
+                System.out.println("No score. Please contact admin.");
+        }
+        
+        //Ternary operator
+        
+        //If the skill level is greater than 5, the number of enemies is 10.
+        //Otherwise, it's 5:
+        int skillLevel = 5;
+        int numberOfEnemies = (skillLevel > 5) ? 10:5;
+        
+        //If the gender is male, display Mr. If female, display Ms.:
+        String gender = "female";
+        System.out.print( (gender.equals("male")) ? "Mr." : "Ms.");
+        
+        
+        
     }
 }
