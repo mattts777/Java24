@@ -3,5 +3,6 @@ public class Saluton {
         String greeting = "Saluton mondo!";
         System.out.println(greeting);
         
+        
     }
 }
