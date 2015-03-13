@@ -27,15 +27,24 @@ class Methods {
     int stringposition = carlist.indexOf("Lotus Esprit");
     System.out.println("We found the car at position: " + stringposition);
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     }
+    
+    //Example of a simple method that returns a value
+     public boolean testResult(String testcase){
+        boolean success = false;
+        return success;
+        
+    }
+    
+    //Methods can have the same name if they have a different number of arguments
+    //or the arguments are of different variable types. Example:
+    void messageUser(){
+        System.out.println("Hello");
+    }   
+    //The arguments to a method are called the method's signature.
+    void messageUser(String message){
+        System.out.println(message);
+    }
+    
+    
 }

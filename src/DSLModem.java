@@ -1,5 +1,5 @@
 public class DSLModem extends Modem {
-    String method = "DSL phone connection";
+    public String method = "DSL phone connection";
     
     public int connect(){
         System.out.println("Connecting to the Internet...");
