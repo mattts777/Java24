@@ -14,7 +14,7 @@ public class JUnitExamples {
       String[] expectedArray = {"one", "two", "three"};
       String[] resultArray =  {"one", "two", "three"};
 
-    //Check that two objects are equal
+      //Check that two objects are equal
       assertEquals(str1, str2);
 
       //Check that a condition is true
@@ -38,11 +38,6 @@ public class JUnitExamples {
       //Check whether two arrays are equal to each other.
       assertArrayEquals(expectedArray, resultArray);
     
-    
-    
-    
     }
-    
-    
     
 }
